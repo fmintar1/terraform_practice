@@ -25,8 +25,8 @@
 #### * resource "aws_s3_bucket" "name" {} is to create a bucket in your s3. Inside the scope, you need to type bucket = "name-of-bucket-must-be-unique-and-no-caps"
 #### * resource "aws_s3_bucket_public_access_block" "name" {} is to give restricted access to your bucket. Inside the scope, you need to type bucket = no-quotation-mark-but-type-aws_s3_bucket.name.id (this refers to the resource bucket name you created above)
 #### * Still inside the same scope, use the following:
-####    * block_public_acls = true
-####    * block_public_policy = true
-####    * ignore_public_acls = true
-####    * restrict_public_buckets = true
-####    It will create restrictions to your bucket based on what you put restrictions on
+#### ... * block_public_acls = true
+#### ... * block_public_policy = true
+#### ... * ignore_public_acls = true
+#### ... * restrict_public_buckets = true
+#### ...It will create restrictions to your bucket based on what you put restrictions on
