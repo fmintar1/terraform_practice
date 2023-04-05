@@ -5,7 +5,7 @@
 #### Terraform guidance link:
 
 ## [link to Terraform documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
-## [link to Terraform AWS Installation guide](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+## [link to Terraform AWS Installation guide](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) - Linux/Amazon Linux
 ## [link to Terraform tutorial I recommended](https://www.youtube.com/watch?v=c1_CFb7kkVA&ab_channel=TheCloudBootcamp-English)
 
 --------------------------------------------------------------------------------------
